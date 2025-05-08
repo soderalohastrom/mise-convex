@@ -1,0 +1,23 @@
+{
+  "name": "mise",
+  "version": "1.0.0",
+  "description": "Mise project with Convex backend and helper scripts.",
+  "main": "index.js",
+  "scripts": {
+    "reset-db": "npx convex run scripts/reset_database.js",
+    "export-data": "npx convex run scripts/export_data.js",
+    "generate-test-data": "npx convex run scripts/generate_test_data.js",
+    "validate-schema": "npx convex run scripts/validate_schema.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "convex": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+} 
